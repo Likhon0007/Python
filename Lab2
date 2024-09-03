@@ -10,3 +10,43 @@ s2=input()
 l=len(s1)
 d=l//2
 print(s1[0:d],s2,s1[d:])
+
+3.
+x=input()
+
+l=''
+u=''
+for c in x:
+    if c.islower():
+        l +=c
+
+        #print(l)
+
+    elif c.isupper():
+        u +=c
+
+
+
+lowup=l+u  
+
+4.
+x=input()
+c=0
+d=0
+s=0
+
+for i in x:
+    if i.isalpha():
+        c+=1
+    elif i.isdigit():
+        d+=1
+    else:
+        s+=1
+
+
+
+print("char=",c)
+print("Digits=",d)
+print("symbols=",s)
+
+5.
