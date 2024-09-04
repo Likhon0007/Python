@@ -84,5 +84,20 @@ for char in string:
 
 print('Output:', char_number)
 7.
+s = input("Enter a string: ")
+
+
+
+substring = input("Enter the substring: ")
+
+
+
+index = s.rfind(substring)
+
+
+
+print(index)
+
+
 
 
