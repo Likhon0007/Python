@@ -65,3 +65,24 @@ count = lower_str.count(sub_string.lower())
 print("The USA count is : ", count)
 
 
+6.
+string = input("Enter a string: ")
+
+
+
+char_number = dict()
+
+
+
+for char in string:
+
+    count = string.count(char)
+
+    char_number[char] = count
+
+
+
+print('Output:', char_number)
+7.
+
+
