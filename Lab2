@@ -9,7 +9,7 @@ s1=input()
 s2=input()
 l=len(s1)
 d=l//2
-print(s1[0:d],s2[0:],s1[d:])
+print(s1[0:d]+s2[0:]+s1[d:])
 
 3.
 x=input()
